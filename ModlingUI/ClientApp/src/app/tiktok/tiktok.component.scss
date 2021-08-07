@@ -1,0 +1,478 @@
+@import url(../../assets/cusomcss.scss);
+.top-tiktok-mark-banner {
+  background: url(../../assets/images/tiktok-mark-agency-banner.webp) no-repeat;
+    height: 580px;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    margin-top: 83px;
+}
+.top-tiktok-mark-banner .top-tiktok-mark-banner-caption {
+    position: absolute;
+    left: 56%;
+    top: 39%;
+    right: 4%;
+}
+.top-tiktok-mark-banner .top-tiktok-mark-banner-caption h1 {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 50px;
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+    .top-tiktok-mark-banner {
+        background: url(../../assets/images/form-foto.webp);  
+      height: 520px;
+        margin-top: 56px;
+        background-size: cover;
+        background-position: center center;
+    }
+    .top-tiktok-mark-banner .top-tiktok-mark-banner-caption {
+        top: 65%;
+        left: 7%;
+    }
+    .top-tiktok-mark-banner .top-tiktok-mark-banner-caption h1 {
+        font-size: 22px;
+        line-height: 33px;
+    }
+}
+@media (min-width: 375px) and (max-width: 414px) {
+    .top-tiktok-mark-banner {
+       background: url(../../assets/images/tiktok-mark-agency-banner-375.webp);  
+     height: 520px;
+        margin-top: 56px;
+        background-size: cover;
+        background-position: center center;
+    }
+    .top-tiktok-mark-banner .top-tiktok-mark-banner-caption {
+        top: 65%;
+        left: 7%;
+    }
+    .top-tiktok-mark-banner .top-tiktok-mark-banner-caption h1 {
+        font-size: 23px;
+        line-height: 37px;
+    }
+}
+@media (min-width: 414px) and (max-width: 568px) {
+    .top-tiktok-mark-banner {
+       background: url(../../assets/images/tiktok-mark-agency-banner-414.webp);  
+     height: 520px;
+        margin-top: 75px;
+        background-size: cover;
+        background-position: center center;
+    }
+    .top-tiktok-mark-banner .top-tiktok-mark-banner-caption {
+        top: 65%;
+        left: 8%;
+    }
+    .top-tiktok-mark-banner .top-tiktok-mark-banner-caption h1 {
+        font-size: 26px;
+        line-height: 44px;
+    }
+}
+
+main { padding: 50px 0px; }
+main h2 {
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(71, 71, 71);
+    padding: 0px 162px;
+    line-height: 40px;
+    margin-bottom: 40px;
+}
+main form {
+    margin: 20px 0px;
+}
+main form .form-group {
+    margin-bottom: 23px;
+}
+main form .btn-danger {
+    width: 180px;
+    font-weight: 700;
+    background-color: #f99f18;
+    border-color: #f99f18;
+    border-radius: 30px;
+    padding: 10px 22px;
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+    main h2 {
+        font-size: 23px;
+        line-height: 32px;
+        padding: 0;
+    }
+}
+@media (min-width: 375px) and (max-width: 414px) {
+    main h2 {
+        font-size: 23px;
+        line-height: 32px;
+        padding: 0;
+    }
+}
+@media (min-width: 414px) and (max-width: 568px) {
+    main h2 {
+        font-size: 25px;
+        line-height: 37px;
+        padding: 0;
+    }
+}
+
+/* our tik tok marketing */
+.our-tiktok-marketing {
+    padding: 50px 0px;
+    background-color: #f2f7fd;
+}
+.our-tiktok-marketing h2 {
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(71, 71, 71);
+    padding: 0px 162px;
+    line-height: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.our-tiktok-marketing p {
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid rgb(133, 133, 133);
+    color: rgb(133, 133, 133);
+    padding: 12px 140px;
+    border-radius: 7px;
+}
+.our-tiktok-marketing .our-tiktok-marketing-grid {
+    text-align: center;
+}
+.our-tiktok-marketing .our-tiktok-marketing-grid ul {
+    padding-inline-start: initial;
+}
+.our-tiktok-marketing .our-tiktok-marketing-grid ul li {
+    list-style: none;
+    font-weight: 600;
+    font-size: 16px;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+.our-tiktok-marketing .our-tiktok-marketing-grid ul li a {
+    color: rgb(5, 68, 97);
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+    .our-tiktok-marketing h2 {
+        padding: 0;
+        font-size: 23px;
+        line-height: 32px;
+    }
+    .our-tiktok-marketing p {
+        padding: 13px 10px;
+    }
+    .our-tiktok-marketing .mt-5 {
+        margin-top: 0 !important;
+    }
+    .our-tiktok-marketing .our-tiktok-marketing-grid ul li {
+        margin-bottom: 40px;
+    }
+}
+@media (min-width: 375px) and (max-width: 414px) {
+    .our-tiktok-marketing h2 {
+        padding: 0;
+        font-size: 23px;
+        line-height: 34px;
+    }
+    .our-tiktok-marketing p {
+        padding: 13px 10px;
+    }
+    .our-tiktok-marketing .mt-5 {
+        margin-top: 0 !important;
+    }
+    .our-tiktok-marketing .our-tiktok-marketing-grid ul li {
+        margin-bottom: 40px;
+    }
+}
+@media (min-width: 414px) and (max-width: 568px) {
+    .our-tiktok-marketing h2 {
+        padding: 0;
+        font-size: 25px;
+        line-height: 37px;
+    }
+    .our-tiktok-marketing p {
+        padding: 13px 10px;
+    }
+    .our-tiktok-marketing .mt-5 {
+        margin-top: 0 !important;
+    }
+    .our-tiktok-marketing .our-tiktok-marketing-grid ul li {
+        margin-bottom: 40px;
+    }
+}
+/* //our tik tok marketing */
+
+/* why brands should */
+.why-brands-should {
+    padding: 50px 0px;
+    position: relative;
+}
+.why-brands-should h2 {
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(71, 71, 71);
+    padding: 0px 227px;
+    line-height: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.why-brands-should p {
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid rgb(133, 133, 133);
+    color: rgb(133, 133, 133);
+    padding: 12px 190px;
+    border-radius: 7px;
+}
+.why-brands-should .why-brands-should-circle { /* big circle code */
+    width: 220px;
+    height: 220px;
+    border-radius: 160px;
+    background-color: #96d347;
+    margin: 0 auto;
+}
+.why-brands-should .why-brands-should-circle h3 {
+    position: absolute;
+    left: 29%;
+    top: 42%;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    font-size: 21px;
+}
+.why-brands-should .why-brands-should-circle .right-arrow { /* right arrow for desktop */
+    position: absolute;
+    left: 95%;
+    top: 42%;
+}
+.why-brands-should .why-brands-should-circle .right-arrow .fa-long-arrow-right {
+    font-size: 38px;
+    color: #505050;
+}
+
+.why-brands-should .why-brands-should-circle .h3-two {
+    position: absolute;
+    left: 37%;
+}
+.why-brands-should .why-brands-should-circle .h3-three {
+    position: absolute;
+    left: 33%;
+}
+.why-brands-should .why-brands-should-circle .h3-four {
+    position: absolute;
+    left: 27%;
+    top: 36%;
+    text-align: center;
+}
+.why-brands-should .why-brands-should-circle .h3-five {
+    position: absolute;
+    left: 28%;
+    top: 36%;
+    text-align: center;
+}
+.why-brands-should .why-brands-should-circle .h3-six {
+    position: absolute;
+    left: 42%;
+}
+.why-brands-should .why-brands-should-circle-small { /* small number circel */
+    position: absolute;
+    left: 63%;
+    background-color: #fff;
+    border: 1px solid rgb(104, 104, 104);
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+}
+.why-brands-should .why-brands-should-circle-small p {
+    position: absolute;
+    left: 38%;
+    top: 14%;
+    border: none;
+    color: rgb(110, 110, 110);
+    padding: 0;
+    font-weight: 600;
+    font-size: 30px;
+}
+.why-brands-should .more-text p {
+    color: rgb(84,84,84);
+    border: none;
+    text-align: left;
+    padding: 0;
+    font-size: 17px;
+}
+.why-brands-should .more-text h2 {
+    padding: 10px 0px;
+}
+.why-brands-should .more-text h3 {
+    color: #4e4e4e;
+    font-weight: 600;
+    font-size: 20px;
+}
+.why-brands-should .col-md-4 {
+    margin-bottom: 50px;
+}
+.why-brands-should .col-lg-4 {
+    margin-bottom: 50px;
+}
+.why-brands-should .mt-5 {
+    margin-top: 80px !important;
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+    .why-brands-should h2 {
+        font-size: 23px;
+        line-height: 32px;
+        padding: 0;
+    }
+    .why-brands-should p {
+        font-size: 17px;
+        padding: 10px 10px;
+    }
+    .why-brands-should .why-brands-should-circle .down-arrow { /* down arrow for mobile */
+        position: absolute;
+        left: 48%;
+        top: -16%;
+    }
+    .why-brands-should .why-brands-should-circle .down-arrow .fa-long-arrow-down {
+        font-size: 26px;
+    }
+    .why-brands-should .why-brands-should-circle h3 {
+        font-size: 20px;
+        left: 28%;
+    }
+    .why-brands-should .why-brands-should-circle .h3-three {
+        font-size: 20px;
+        left: 30%;
+    }
+    .why-brands-should .why-brands-should-circle .h3-four {
+        left: 25%;
+        font-size: 20px;
+    }
+    .why-brands-should .why-brands-should-circle .h3-five {
+        left: 24%;
+        font-size: 20px;
+    }
+    .why-brands-should .why-brands-should-circle .h3-six {
+        font-size: 20px;
+        left: 40%;
+    }
+}
+@media (min-width: 375px) and (max-width: 414px) {
+    .why-brands-should h2 {
+        font-size: 24px;
+        line-height: 36px;
+        padding: 0;
+    }
+    .why-brands-should p {
+        font-size: 17px;
+        padding: 10px 10px;
+    }
+    .why-brands-should .why-brands-should-circle .down-arrow { /* down arrow for mobile */
+        position: absolute;
+        left: 48%;
+        top: -16%;
+    }
+    .why-brands-should .why-brands-should-circle .down-arrow .fa-long-arrow-down {
+        font-size: 26px;
+    }
+    .why-brands-should .why-brands-should-circle h3 {
+        font-size: 20px;
+        left: 30%;
+    }
+    .why-brands-should .why-brands-should-circle .h3-three {
+        font-size: 20px;
+        left: 33%;
+    }
+    .why-brands-should .why-brands-should-circle .h3-four {
+        left: 29%;
+        font-size: 20px;
+    }
+    .why-brands-should .why-brands-should-circle .h3-five {
+        left: 28%;
+        font-size: 20px;
+    }
+    .why-brands-should .why-brands-should-circle .h3-six {
+        font-size: 20px;
+        left: 42%;
+    }
+}
+@media (min-width: 414px) and (max-width: 568px) {
+    .why-brands-should h2 {
+        font-size: 24px;
+        line-height: 36px;
+        padding: 0;
+    }
+    .why-brands-should p {
+        font-size: 17px;
+        padding: 10px 10px;
+    }
+    .why-brands-should .why-brands-should-circle .down-arrow { /* down arrow for mobile */
+        position: absolute;
+        left: 48%;
+        top: -16%;
+    }
+    .why-brands-should .why-brands-should-circle .down-arrow .fa-long-arrow-down {
+        font-size: 26px;
+    }
+    .why-brands-should .why-brands-should-circle h3 {
+        font-size: 22px;
+        left: 30%;
+    }
+    .why-brands-should .why-brands-should-circle .h3-three {
+        font-size: 20px;
+        left: 33%;
+    }
+    .why-brands-should .why-brands-should-circle .h3-four {
+        left: 31%;
+        font-size: 20px;
+    }
+    .why-brands-should .why-brands-should-circle .h3-five {
+        left: 30%;
+        font-size: 20px;
+    }
+    .why-brands-should .why-brands-should-circle .h3-six {
+        font-size: 20px;
+        left: 42%;
+    }
+}
+.orange-bg { background-color: #ffa200 !important; }
+.purple-bg { background-color: #5b5fa8 !important; }
+.sky-bg { background-color: #029dd3 !important; }
+.dark-pink-bg { background-color: #e76160 !important; }
+.gray-bg { background-color: #929292 !important; }
+/* //why brands should */
+
+
+@media (max-width: 768px) {
+    html {
+        overflow-x: hidden !important;
+    }
+    body {
+        overflow-x: hidden !important;
+    }
+}
+@media (max-width: 674px) {
+    .right-arrow-phone-none {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

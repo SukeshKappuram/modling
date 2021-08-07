@@ -1,0 +1,132 @@
+<main class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h1>contact grynow</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-sm-12 col-lg-4">
+                <div class="contact-form">
+                    <!-- <h4>we want to hear from you</h4> -->
+                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="pills-creators-tab" data-toggle="pill" href="#pills-creators"
+                                role="tab" aria-controls="pills-creators" aria-selected="true">Creators</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-brands-tab" data-toggle="pill" href="#pills-brands" role="tab"
+                                aria-controls="pills-brands" aria-selected="false">Brands</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-creators" role="tabpanel"
+                            aria-labelledby="pills-creators-tab">
+                            <form #contactForm="ngForm" (ngSubmit)="onSubmit(contactForm)">
+                                <input type="text" class="form-control" name="cname" id="" placeholder="Full Name"  ngModel>
+                                <input type="text" class="form-control" name="socialUrl" id=""
+                                    placeholder="Social Media Link" ngModel>
+                                <input type="text" class="form-control" name="cnumber" id="" placeholder="Phone Number" ngModel>
+                                <input type="text" class="form-control" name="cemail" id="" placeholder="Email Address" ngModel>
+                                <textarea id="my-textarea" class="form-control" name="message" rows="3"
+                                    placeholder="Message" ngModel></textarea>
+                                <button type="submit" class="btn btn-primary" id="">Get Sponsorship</button>
+                            </form>
+                        </div>
+                        <div class="tab-pane fade" id="pills-brands" role="tabpanel" aria-labelledby="pills-brands-tab">
+                            <form action="subscriber.php" method="post">
+                                <input type="text" class="form-control" name="bname" id="" placeholder="Full Name">
+                                <input type="text" class="form-control" name="weburl" id=""
+                                    placeholder="Website Mobile / App Link">
+                                <input type="text" class="form-control" name="number" id="" placeholder="Phone Number">
+                                <input type="text" class="form-control" name="email" id="" placeholder="Email Address">
+                                <textarea id="my-textarea" class="form-control" name="message" rows="3"
+                                    placeholder="Message"></textarea>
+                                <input type="submit" value="Submit" name="send_brand_mail" class="btn btn-primary">
+                                <!-- <button type="submit" name="send_brand_mail" class="btn btn-primary" id="">Get influencers</button> -->
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="contact-details">
+                    <h3>grynow</h3>
+                    <p>820, Golf Course Road Sector 42, Gurugram Haryana - 122001, India</p>
+                    <p class="text-uppercase"><strong>sales enquiry:</strong></p>
+                    <ul>
+                        <li><i class="fa fa-phone"></i><a href="tel:+919917486405">+91-9917 486 405</a></li>
+                        <li><i class="fa fa-envelope"></i><a href="mailto:washib@grynow.in">info@grynow.in</a></li>
+                        <li><i class="fa fa-envelope"></i><a href="mailto:washib@grynow.in">washib@grynow.in</a></li>
+                    </ul>
+                    <p class="text-uppercase"><strong>hr:</strong></p>
+                    <ul>
+                        <li><i class="fa fa-envelope"></i> hr@grynow.in</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.5829356666427!2d77.0943489150474!3d28.46198619853011!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d05d494a75ce1%3A0x7978b64495bc9c74!2sGryNow%20Influencer%20Marketing!5e0!3m2!1sen!2sin!4v1593580472895!5m2!1sen!2sin"
+                    width="100%" height="440" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe>
+            </div>
+        </div>
+    </div>
+</main>
+<section class="container-fluid clients">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h5><strong>our key clients</strong></h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                <img src="../assets/images/amazon.webp" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-2">
+                <img src="../assets/images/helo.webp" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-2">
+                <img src="../assets/images/tik-tok.webp" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-2">
+                <img src="../assets/images/shareit.webp" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-3">
+                <div class="client-testimonials">
+                    <p><strong>client speak</strong></p>
+                    <p>Thank you GryNow team for the super fast results. We were surprised with the
+                        number of orders we recieved.</p>
+                    <a href="#" class="btn btn-danger">Read More</a>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <img src="../assets/images/paytm.webp" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-2">
+                <img src="../assets/images/likee.webp" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-2">
+                <img src="../assets/images/azar.webp" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-2">
+                <a href="" class="btn btn-primary">View All</a>
+            </div>
+            <div class="col-md-3 mt-2">
+                <div class="latest-news">
+                    <p><strong>latest news</strong></p>
+                    <a href="https://in.style.yahoo.com/indian-influencers-global-big-hit-182931428.html"
+                        target="_blank" rel="nofollow">
+                        <h6>Indian Influencers go Global with big hit management company Grynow!</h6>
+                    </a>
+                    <p class="mt-3">From initial struggles and humble beginnings, the company today is networked with
+                        more than 5000 leading social media influencers...</p>
+                    <a href="https://in.style.yahoo.com/indian-influencers-global-big-hit-182931428.html"
+                        target="_blank" rel="nofollow" class="btn btn-info">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

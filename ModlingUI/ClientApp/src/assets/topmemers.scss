@@ -1,0 +1,158 @@
+
+.memes-marketing-banner {
+    background-image: url(../assets/images/meme-marketing-banner.webp);
+    height: 580px;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    margin-top: 83px;
+}
+.memes-marketing-banner .memes-marketing-banner-caption {
+    position: absolute;
+    left: 51%;
+    top: 39%;
+}
+.memes-marketing-banner .memes-marketing-banner-caption h1 {
+    font-size: 34px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 48px;
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+    .memes-marketing-banner {
+        background: url(../assets/images/meme-marketing-banner-375.webp);
+        height: 520px;
+        width: 320px;
+        margin-top: 56px;
+        background-size: cover;
+        background-position: center center;
+    }
+    .memes-marketing-banner .memes-marketing-banner-caption {
+        top: 65%;
+        left: 5%;
+    }
+    .memes-marketing-banner .memes-marketing-banner-caption h1 {
+        font-size: 22px;
+        line-height: 31px;
+        padding-right: 11px;
+    }
+}
+@media (min-width: 375px) and (max-width: 414px) {
+    .memes-marketing-banner {
+        background: url(../assets/images/meme-marketing-banner-375.webp);
+        height: 520px;
+        width: 320px;
+        margin-top: 56px;
+        background-size: cover;
+        background-position: center center;
+    }
+    .memes-marketing-banner .memes-marketing-banner-caption {
+        top: 66%;
+        left: 5%;
+    }
+    .memes-marketing-banner .memes-marketing-banner-caption h1 {
+        font-size: 22px;
+        line-height: 34px;
+        padding-right: 13px;
+    }
+}
+@media (min-width: 414px) and (max-width: 568px) {
+    .memes-marketing-banner {
+        background: url(../assets/images/meme-marketing-banner-375.webp);
+        height: 520px;
+        width: 320px;
+        margin-top: 75px;
+        background-size: cover;
+        background-position: center center;
+    }
+    .memes-marketing-banner .memes-marketing-banner-caption {
+        top: 67%;
+        left: 5%;
+    }
+    .memes-marketing-banner .memes-marketing-banner-caption h1 {
+        font-size: 25px;
+        line-height: 37px;
+        padding-right: 13px;
+    }
+}
+
+.bolly { padding: 40px 0px; }
+.bolly video {
+    margin-bottom: 15px;
+    height: 235px;
+    max-width: 100%;
+}
+.bolly h2 { font-size: 28px; color: #4d4d4d; font-weight: 600; }
+
+/* main section */
+main {
+    padding: 50px 0px 30px 0px;
+    position: relative;
+}
+main::before {
+    width: 200px;
+    height: 200px;
+    background-color: #546ba1;
+    content: '';
+    border-radius: 100px;
+    position: absolute;
+    left: 78%;
+    top: -26.8%;
+    z-index: -1;
+}
+main h2, h3 {
+    color: rgb(85, 85, 85);
+    font-size: 28px;
+}
+main p {
+    color: rgb(122, 122, 122);
+    font-size: 17px;
+    font-weight: 300;
+}
+main .btn-danger {
+    background-color: #feb006;
+    border-color: #feb006;
+    padding: 12px 22px 12px 22px;
+    font-weight: 600;
+    border-radius: 100px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+    main h2 {
+        font-size: 24px;
+        font-weight: 600;
+    }
+}
+@media (min-width: 375px) and (max-width: 414px) {
+    main h2 {
+        font-size: 24px;
+        font-weight: 600;
+    }
+}
+@media (min-width: 414px) and (max-width: 568px) {
+    main h2 {
+        font-size: 24px;
+        font-weight: 600;
+    }
+}
+/* //main section */
+
+@media (max-width: 674px) {
+    html {
+        overflow-x: hidden !important;
+    }
+    body {
+        overflow-x: hidden !important;
+    }
+    .container-fluid {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
+
+
+
