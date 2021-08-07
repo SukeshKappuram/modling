@@ -11,7 +11,6 @@ import { HomeComponent } from './home/home.component';
 import { InstagrammerComponent } from './instagrammer/instagrammer.component';
 import { MamesmarketComponent } from './mamesmarket/mamesmarket.component';
 import { MicrinfluencerComponent } from './micrinfluencer/micrinfluencer.component';
-import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { TiktokComponent } from './tiktok/tiktok.component';
 import { YoutubersComponent } from './youtubers/youtubers.component';
@@ -26,8 +25,7 @@ import { YoutubersComponent } from './youtubers/youtubers.component';
     TiktokComponent,
     MamesmarketComponent,
     PagenotfoundComponent,
-    ContactusComponent,
-    NavMenuComponent
+    ContactusComponent
   ],
   imports: [
     BrowserModule,
