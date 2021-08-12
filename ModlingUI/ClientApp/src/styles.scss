@@ -1135,7 +1135,8 @@ a.bg-light:focus,a.bg-light:hover,button.bg-light:focus,button.bg-light:hover{
     font-weight:600
 }
 .home-banner{
-    // background-image:url('../src/assets/images/banner.webp') no-repeat;
+    background-image:url(../src/assets/images/banner.webp);
+    background-repeat: no-repeat;
     background-color: greenyellow;
     background-size:cover;
     background-position:center center;
@@ -1297,8 +1298,8 @@ body>.container-fluid{
     font-size:18px!important
 }
 .graph-girl{
-   // background:url(./assets/images/banner.webp) no-repeat;
-   background-color: greenyellow;
+   background:url(../src/assets/images/graph.webp);
+   background-repeat: no-repeat;
     height:840px;
     background-size:cover;
     background-position:center center;
@@ -1522,7 +1523,8 @@ body>.container-fluid{
     font-size:24px
 }
 .the-7p-marketing{
-   // background:url(./assets/images/7p-bg.webp) no-repeat;
+    background-image:url(./assets/images/7p-bg.webp);
+    background-repeat: no-repeat;
    background-color: greenyellow;
     height:700px;
     background-size:cover;
@@ -1696,8 +1698,8 @@ body>.container-fluid{
     padding:30px 0
 }
 .jannat{
-   // background:url(./assets/images/jannat.webp) no-repeat;
-   background-color: greenyellow;
+    background-image: url(../src/assets/images/jannat.webp);
+    background-repeat: no-repeat;
     height:830px;
     background-size:cover;
     background-position:center center;
@@ -2414,8 +2416,8 @@ body{
 }
 @media (min-width:320px) and (max-width:375px){
     .graph-girl{
-     //   background:url(./assets/images/graph-320.webp) no-repeat;
-     background-color: greenyellow;
+        // background-image:url(./assets/images/graph-320.webp);
+        // background-repeat: no-repeat;
         height:437px
     }
     .graph-girl h3{
@@ -2425,8 +2427,8 @@ body{
 }
 @media (min-width:375px) and (max-width:414px){
     .graph-girl{
-       // background:url(./assets/images/graph-375.webp) no-repeat;
-       background-color: greenyellow;
+    //    background-image:url(./assets/images/graph-375.webp);
+    //    background-repeat: no-repeat;
         height:518px
     }
     .graph-girl h3{
@@ -2436,8 +2438,8 @@ body{
 }
 @media (min-width:414px) and (max-width:568px){
     .graph-girl{
-      //  background:url(./assets/images/graph-414.webp) no-repeat;
-      background-color: greenyellow;
+    //  background-image:url(./assets/images/graph-414.webp);
+    //  background-repeat: no-repeat;
         height:522px
     }
     .graph-girl h3{
@@ -2447,8 +2449,8 @@ body{
 }
 @media (min-width:1605px) and (max-width:1920px){
     .graph-girl{
-      //  background:url(./assets/images/graph.webp) no-repeat;
-      background-color: greenyellow;
+    //   background-image:url(./assets/images/graph.webp) ;
+    //   background-repeat: no-repeat;
         height:1004px
     }
 }
@@ -2832,8 +2834,8 @@ body{
 }
 @media (min-width:320px) and (max-width:375px){
     .jannat{
-    //    background:url(./assets/images/jannat-375.webp) no-repeat;
-    background-color: greenyellow;
+    // background-image:url(../src/assets/images/jannat.webp);
+    // background-repeat: no-repeat;
         height:600px;
         background-position:center center
     }
@@ -2851,8 +2853,8 @@ body{
 }
 @media (min-width:375px) and (max-width:414px){
     .jannat{
-     //   background:url(./assets/images/jannat-375.webp) no-repeat;
-     background-color: greenyellow;
+    //  background-image:url(./assets/images/jannat-375.webp);
+    //     background-repeat: no-repeat;
         height:600px;
         background-position:center center
     }
